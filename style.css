@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: poppins;
+}
+
+body {
+    background-color: #0D1117;
+}
+
+.fs-achraf-name{
+    font-size: 5vw;
+}
+
+.achraf-gradient-text {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    -webkit-background-clip: text; /* For Safari and older versions of Chrome */
+    background-clip: text;
+    color: transparent;
+  }
+
+.nav-bg-achraf{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+
+/* UIVERSE CSS */
+
+.ui-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .ui-up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .ui-down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .ui-card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .ui-instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .ui-card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .ui-twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .ui-card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .ui-github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .ui-card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .ui-discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .ui-card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .ui-card1:hover .instagram {
+    fill: white;
+  }
+  
+  .ui-card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .ui-card2:hover .twitter {
+    fill: white;
+  }
+  
+  .ui-card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .ui-card3:hover .github {
+    fill: white;
+  }
+  
+  .ui-card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .ui-card4:hover .discord {
+    fill: white;
+  }
+
+
+  .ui2-button {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+   }
+   
+   .ui2-button:active,
+   .ui2-button:hover {
+    outline: 0;
+   }
+   
+   .ui2-button .ui2-span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   .ui2-button:hover .ui2-span {
+    background: none;
+   }
+   
+   .ui2-button:active {
+    transform: scale(0.9);
+   }
